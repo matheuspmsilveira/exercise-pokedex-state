@@ -9,6 +9,9 @@ class Pokedex extends React.Component {
       pokemonType: 'all',
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleClickTypeFire = this.handleClickTypeFire.bind(this);
+    this.handleClickTypePsychic = this.handleClickTypePsychic.bind(this);
+    this.filteredPokemons = this.filteredPokemons.bind(this);
   }
 
   handleClick = () => {
